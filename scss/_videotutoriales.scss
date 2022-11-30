@@ -1,0 +1,35 @@
+/*Videos tutoriales*/
+
+.cardsvideo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+    
+    .h1_videostutoriales {
+        color:rgb(138, 1, 1);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 5rem;
+        text-align: center;
+        padding-top: 10rem;
+        font-family: $fuente-texto;
+    }
+    
+    .video_videostutoriales {
+        padding: 2rem;
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .parrafos_videostutoriales {
+        color: $color-azure;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 0.1rem;
+        margin-top: 0.1rem;
+        text-align: center;
+        font-family: $fuente-texto;
+    }

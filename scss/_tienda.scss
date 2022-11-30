@@ -1,0 +1,68 @@
+/*tienda*/
+
+.card-profe {
+    width: 100%auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.padre-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    justify-items: center;
+    margin-top: 3rem;
+}
+
+   @media screen and (max-width: $pantalla-mediana) {
+    .padre-cards {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+   @media screen and (max-width: $pantalla-chica) {
+    .padre-cards {
+        grid-template-columns: 1fr;
+
+    }
+   
+}
+
+
+.card__parrafo {
+    color: $color-azure;
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    text-align: center;
+
+}
+
+.card__parrafo--precio {
+    color: $color-azure;
+    text-align: center;
+}
+
+
+.card__img {
+    padding: 5rem;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenes-tienda {
+transition: width 2s;
+}
+
+.imagenes-tienda:hover {
+width: 600px;
+}
+
+.button:hover{
+    background-color:rgb(73, 71, 71)
+}

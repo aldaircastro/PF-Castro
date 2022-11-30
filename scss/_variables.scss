@@ -1,0 +1,36 @@
+
+//colores:
+
+$color-azure: azure;
+
+//media queries:
+
+$pantalla-mediana: 767px;
+$pantalla-chica: 538px;
+
+//fuente:
+
+$fuente-texto: 'Abel', sans-serif; 
+
+//mixin:
+
+@mixin parrafo-arriba {
+    margin-top: 9rem;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+@mixin  parrafo-abajo {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+@mixin margen-titulo ($arriba,$abajo){
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+

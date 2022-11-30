@@ -1,0 +1,121 @@
+/*index*/
+
+.grid-container {
+    width: 42%;
+    padding: 3rem;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0rem;
+    grid-template-areas:
+    "text1 text2"
+    "text3 imagen4";
+}
+
+@media screen and (max-width: $pantalla-mediana) {
+    .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+    grid-template-areas:
+    "text1"
+    "text2"
+    "text3"
+    "text4";
+    }
+}
+
+
+.text1 {
+    text-align: right;
+   @include parrafo-arriba;
+}
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+ 
+
+.text2 {
+    text-align: left;    
+    @include parrafo-arriba;
+
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.text3 {
+    text-align: right;
+@include parrafo-abajo;
+}
+  
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+    
+
+.text4 {
+    text-align: left;
+    @include parrafo-abajo;
+}
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.imagen_index {
+    height: auto;
+}
+
+section#text1 {
+    grid-area: tex1;
+}
+     
+section#text2 {
+    grid-area: text2;
+}
+
+section#text3 {
+    grid-area: text3;
+    text-align: right
+}
+
+section#imagen4 {
+    grid-area: imagen4;
+}
+
+.texto_footer {
+    transform: translate(140px,50px);
+}
+
+.navbar-brand {
+    font-family: $fuente-texto;
+    color: rgb(10, 10, 10);
+}

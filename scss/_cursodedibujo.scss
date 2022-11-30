@@ -1,0 +1,74 @@
+/*Curso de Dibujo*/
+
+
+.body_cursodedibujo {
+    background-image: url(../Img/fondo-negro-patron-de-luz-abstrato_fondos-de-pantalla-abstratos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-cursodibujo p{
+    color: $color-azure;
+}
+
+
+.section-principal-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;  
+    color: $color-azure;  
+    
+}
+
+.h1_cursodedibujo {
+    color:rgb(0, 19, 129);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    text-align: center;
+    font-family: $fuente-texto;
+    padding-top: 10rem;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+ 
+
+.parrafo_cursodedibujo {
+    color: $color-azure;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
+
+.titulo-curso {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.fieldset-curso p {
+    color: azure
+}

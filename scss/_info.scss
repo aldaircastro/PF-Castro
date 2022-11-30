@@ -1,0 +1,47 @@
+/*info*/
+
+.body_info {
+    background-image: url(../img/fondo-negro-patron-de-luz-abstrato_fondos-de-pantalla-abstratos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1_info {
+    color: rgb(173, 173, 0);
+    @include margen-titulo(2rem,2rem);
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: $fuente-texto;
+}
+
+.h2_info {
+    color:rgb(255, 255, 255);
+    @include margen-titulo(2rem,2rem);
+    font-size: 3rem;
+    text-align: cleft;
+}
+
+.texto_info {
+    color: $color-azure ;
+    margin-top: 1rem;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.fieldset_info {
+    margin-left: 29rem;
+    margin-right: 29rem;
+    border: double rgb(49, 44, 44);
+    padding: 2rem; 
+    margin-bottom: 3rem;   
+}
+
+.imageninfo {
+    width: 100%;
+}

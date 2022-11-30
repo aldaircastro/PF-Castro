@@ -1,0 +1,72 @@
+//grilla index:
+.grid-container {
+    width: 42%;
+    padding: 3rem;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0rem;
+    grid-template-areas:
+    "text1 text2"
+    "text3 imagen4";
+}
+
+@media screen and (max-width: $pantalla-mediana) {
+    .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1;
+    grid-template-areas:
+    "text1"
+    "text2"
+    "text3"
+    "text4";
+    }
+}
+
+section#text1 {
+    grid-area: tex1;
+}
+     
+section#text2 {
+    grid-area: text2;
+}
+
+section#text3 {
+    grid-area: text3;
+    text-align: right
+}
+
+section#imagen4 {
+    grid-area: imagen4;
+}
+
+
+//grilla tienda:
+
+.padre-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    justify-items: center;
+    margin-top: 3rem;
+}
+
+   @media screen and (max-width: $pantalla-mediana) {
+    .padre-cards {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+   @media screen and (max-width: $pantalla-chica) {
+    .padre-cards {
+        grid-template-columns: 1fr;
+
+    }
+   
+}
