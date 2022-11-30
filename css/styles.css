@@ -203,14 +203,6 @@ section#imagen4 {
 }
 
 /*Curso de Dibujo*/
-.body_cursodedibujo {
-  background-image: url(../Img/fondo-negro-patron-de-luz-abstrato_fondos-de-pantalla-abstratos.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .form-cursodibujo p {
   color: azure;
 }
