@@ -22,9 +22,9 @@
 
 .h2_info {
     color:rgb(255, 255, 255);
-    @include margen-titulo(2rem,2rem);
     font-size: 3rem;
-    text-align: cleft;
+    margin-top: 10rem;
+text-align: center;
 }
 
 .texto_info {

@@ -119,3 +119,16 @@ section#imagen4 {
     font-family: $fuente-texto;
     color: rgb(10, 10, 10);
 }
+
+.h1index {
+  color: azure;
+  margin-top: 187px;
+  text-align: center;
+  margin-bottom: -198px;
+  font-size: 20px;
+  font-family: $fuente-texto;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+
+}

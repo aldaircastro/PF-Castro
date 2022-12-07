@@ -1,5 +1,30 @@
 /*tienda*/
 
+.titulotienda {
+    color: rgb(99, 99, 99);
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    font-family: $fuente-texto;
+    animation-duration: 1s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    margin-top: 6rem;
+  text-align: center;
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+ 
+
 .card-profe {
     width: 100%auto;
     display: flex;
