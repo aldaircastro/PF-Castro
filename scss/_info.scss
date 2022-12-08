@@ -22,9 +22,9 @@
 
 .h2_info {
     color:rgb(255, 255, 255);
+    @include margen-titulo(2rem,2rem);
     font-size: 3rem;
-    margin-top: 10rem;
-text-align: center;
+    text-align: cleft;
 }
 
 .texto_info {
@@ -35,8 +35,6 @@ text-align: center;
 }
 
 .fieldset_info {
-    margin-left: 29rem;
-    margin-right: 29rem;
     border: double rgb(49, 44, 44);
     padding: 2rem; 
     margin-bottom: 3rem;   
@@ -45,3 +43,8 @@ text-align: center;
 .imageninfo {
     width: 100%;
 }
+
+.fieldset_info p {
+    text-align: center;
+}
+

@@ -306,9 +306,10 @@ section#imagen4 {
 
 .h2_info {
   color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 3rem;
-  margin-top: 10rem;
-  text-align: center;
+  text-align: cleft;
 }
 
 .texto_info {
@@ -319,8 +320,6 @@ section#imagen4 {
 }
 
 .fieldset_info {
-  margin-left: 29rem;
-  margin-right: 29rem;
   border: double rgb(49, 44, 44);
   padding: 2rem;
   margin-bottom: 3rem;
@@ -328,6 +327,10 @@ section#imagen4 {
 
 .imageninfo {
   width: 100%;
+}
+
+.fieldset_info p {
+  text-align: center;
 }
 
 /*tienda*/
@@ -342,7 +345,7 @@ section#imagen4 {
   animation-duration: 1s;
   animation-name: aparecer;
   animation-iteration-count: infinite;
-  margin-top: 6rem;
+  margin-top: 7rem;
   text-align: center;
 }
 
