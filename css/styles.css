@@ -316,7 +316,7 @@ section#imagen4 {
   color: azure;
   margin-top: 1rem;
   font-size: 17px;
-  text-align: justify;
+  text-align: center
 }
 
 .fieldset_info {
@@ -326,11 +326,23 @@ section#imagen4 {
 }
 
 .imageninfo {
-  width: 100%;
+  width: 45%;
 }
 
 .fieldset_info p {
   text-align: center;
+}
+
+.info__carrusel img {
+  height: 35vw;
+  width: 46vw;
+  object-fit: cover;
+  margin-top: 27px;
+}
+
+#carouselExampleControls {
+  width: 45%;
+  margin: 0 auto;
 }
 
 /*tienda*/
